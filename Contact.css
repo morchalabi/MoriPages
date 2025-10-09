@@ -23,8 +23,28 @@
   }
 }
 
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-bottom: 60px;
+  }
+}
+
 @media (max-width: 575px) {
   .u-section-1 .u-form-1 {
     width: 340px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 212px;
+    height: 212px;
+    margin-top: 89px;
+    margin-right: auto;
   }
 }
